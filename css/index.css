@@ -2,6 +2,16 @@ html {
     font-family: var(--tipografia-principal);
 }
 
+.enlace {
+    color: var(--enlaces-parrafo);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.resaltado {
+    font-weight: bolder;
+}
+
 
 /* Estilos del header */
 
@@ -104,10 +114,14 @@ main article p {
     margin-bottom: 20px;
 }
 
-main article p a {
-    color: var(--enlaces-parrafo);
+main article section {
+    margin-bottom: 30px;
+}
+
+main article section h3 {
+    color: var(--titulo-color-seccion);
+    font-size: 1.375rem;
     font-weight: bolder;
-    text-decoration: none;
 }
 
 main article section .imagenes {
@@ -123,6 +137,29 @@ main article section .imagenes .img-container {
 main article section .imagenes .img-container img {
     height: 100%;
     width: 100%;
+}
+
+main article .hunt .info {
+    background: #cfd8dc;
+    padding: 40px 3%;
+}
+
+main article .hunt header {
+    align-items: center;
+    background: #b0bec5;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+main article .hunt header h3 {
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+main article .hunt .info .imagenes .img-container {
+    height: 189.08px;
+    width: 336px;
 }
 
 
